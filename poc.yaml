@@ -3,4 +3,10 @@ info:
   title: Vulnerability Verification API
   version: 1.0.0
   description: <img src="x" onerror="alert(window.origin)">
-paths: {}
+paths:
+  /api/v1/status:
+    get:
+      summary: Check API Health Status
+      responses:
+        '200':
+          description: Success response
